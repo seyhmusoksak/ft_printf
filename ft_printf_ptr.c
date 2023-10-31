@@ -6,13 +6,13 @@
 /*   By: soksak <soksak@42istanbul.com.tr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/29 16:27:43 by soksak            #+#    #+#             */
-/*   Updated: 2023/10/29 22:15:14 by soksak           ###   ########.fr       */
+/*   Updated: 2023/10/31 17:35:40 by soksak           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_put_ptr(uintptr_t num)
+int	ft_put_ptr(unsigned long long num)
 {
 	int	i;
 
